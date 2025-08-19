@@ -1,10 +1,23 @@
 # The C# Player's Guide - Extra Projects
 
-Project 1: Character Sheet Builder
-Topics Covered: Variables, Types, Console I/O, Methods, Conditionals, Properties 
-Overview: 
-Create a program that asks the user for character details (name, age, class, stats), calculates derived values (e.g., attack power), and prints a formatted character sheet. 
-Core Features: • Input: string, int, double • Method for computing AttackRating() • Validation (e.g., stat total must not exceed 100) • Use of properties with validation • Enum for class types (Warrior, Mage, Rogue) Start After: • Chapter 6 (Type System) • Chapter 7 (Math) • Chapter 13 (Methods) You’ll need: • Basic input/output • Variables and types • Simple calculations and encapsulation
+## Project 1: Character Sheet Builder
+- Topics Covered: Variables, Types, Console I/O, Methods, Conditionals, Properties 
+- Overview: Create a program that asks the user for character details (name, age, class, stats), calculates derived values (e.g., attack power), and prints a formatted character sheet. 
+- Core Features: 
+  - Input: string, int, double
+  - Method for computing AttackRating()
+  - Validation (e.g., stat total must not exceed 100)
+  - Use of properties with validation
+  - Enum for class types (Warrior, Mage, Rogue)
+  - Start After:
+    - Chapter 6 (Type System)
+    - Chapter 7 (Math)
+    - Chapter 13 (Methods)
+  - You’ll need:
+    - Basic input/output
+    - Variables and types
+    - Simple calculations and encapsulation
+
 
 Project 2: Dungeon Map Renderer Topics Covered: Arrays, Loops, Console Color, Enums, Pattern Matching Overview: Render a 2D dungeon map in the console using characters and colors. Let the user place walls, rooms, and symbols. Core Features: • 2D char[,] array to represent the map • Colorize symbols using ANSI escape codes (\e) • Display with Console.SetCursorPosition • Use enums for tile types • Optional: Save/load to a file Start After: • Chapter 8 (Console 2.0) • Chapter 11 (Looping) • Chapter 12 (Arrays) • Chapter 33 (Managing Larger Programs – optional) You’ll need: • Console cursor manipulation • 2D arrays • Basic rendering logic
 
