@@ -17,7 +17,10 @@
     - Basic input/output
     - Variables and types
     - Simple calculations and encapsulation
-
+- *Comments*
+  - *The book has not yet covered Enums, but it isn't that hard*
+  - *Not sure what "properties" it's talking about in the validation part. We have not covered Classes and properties*
+  - *I will use the stats: Strength, Dexterity, Power and Charisma*
 
 Project 2: Dungeon Map Renderer Topics Covered: Arrays, Loops, Console Color, Enums, Pattern Matching Overview: Render a 2D dungeon map in the console using characters and colors. Let the user place walls, rooms, and symbols. Core Features: • 2D char[,] array to represent the map • Colorize symbols using ANSI escape codes (\e) • Display with Console.SetCursorPosition • Use enums for tile types • Optional: Save/load to a file Start After: • Chapter 8 (Console 2.0) • Chapter 11 (Looping) • Chapter 12 (Arrays) • Chapter 33 (Managing Larger Programs – optional) You’ll need: • Console cursor manipulation • 2D arrays • Basic rendering logic
 
